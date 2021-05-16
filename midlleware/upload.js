@@ -1,4 +1,4 @@
-const db = require('../model')
+const db = require('../models')
 var multer = require('multer')
 const path = require('path')
 var fs = require('fs');

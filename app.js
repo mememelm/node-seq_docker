@@ -9,7 +9,7 @@ const { errorParsor } = require('./midlleware/error-parser')
 const { pathLogger } = require('./midlleware/path-logger')
 
 const app = express()
-const db = require('./model')
+const db = require('./models')
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'))
