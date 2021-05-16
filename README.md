@@ -1,8 +1,8 @@
-# node-seq_docker
+# node-seq_docker full JS
 
-# depencies 
+# dependencies
 sequelize / mysql2
 
-# install docker if need or use simple server database
+install docker if need or use simple server database
 
-# Just run npm install and change bin or config to use it
+Just run npm install and change bin or config to use it
