@@ -1,3 +1,5 @@
+var sha256 = require('crypto-js/sha256')
+
 // image filter
 const imageFilter = (req, file, cb) => {
     try {
@@ -11,4 +13,8 @@ const imageFilter = (req, file, cb) => {
     }
 }
 
-module.exports = { imageFilter }
+const hashPassword = (password) => {
+    return sha256(password).words.toString()
+}
+
+module.exports = { imageFilter, hashPassword }
