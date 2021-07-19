@@ -3,7 +3,7 @@ const { hashPassword } = require('../midlleware/helpers')
 
 const userTest = (req, res) => {
     try {
-        res.status(200).json({ data: 'test OK', message: 'success' })
+        res.status(200).json({ data: 'tafa @zay', message: 'ok ok nama' })
     } catch (error) {
         res.status(400).json({ message: error })
     }
